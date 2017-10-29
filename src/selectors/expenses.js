@@ -26,7 +26,9 @@ const getVisibleExpenses = (expenses, {text, sortBy, startDate, endDate }) => {
 
         return true
       }
+      
     })
+
   return filteredExpenses
 }
 
